@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://flshuiguo.github.io</id>
     <title>Gridea</title>
-    <updated>2019-07-25T14:38:49.629Z</updated>
+    <updated>2019-07-25T14:39:31.912Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://flshuiguo.github.io"/>
     <link rel="self" href="https://flshuiguo.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://flshuiguo.github.io/images/avatar.png</logo>
     <icon>https://flshuiguo.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[88888]]></title>
+        <id>https://flshuiguo.github.io/post/88888</id>
+        <link href="https://flshuiguo.github.io/post/88888">
+        </link>
+        <updated>2019-07-25T14:39:23.000Z</updated>
+        <content type="html"><![CDATA[<p>776</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://flshuiguo.github.io/post/hello-gridea</id>
