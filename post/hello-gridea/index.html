@@ -7,7 +7,11 @@
 <meta name="description" content="水果好吃!">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
+<head>
+  ..
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  ...
+</head>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="shortcut icon" href="https://flshuiguo.github.io/favicon.ico?v=1564067029693">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
@@ -160,6 +164,14 @@
         </div>
       </div>
     </div>
+    <div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: '<API_ID>',
+            appKey: '<API_Key>'
+        })
+    </script>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
