@@ -161,19 +161,17 @@ StatCounter 中国区设备 OS 统计，苹果占 25.02%，安卓阵营73.76%，
             
 
           </div>
-
+          <div id="vcomments"></div>
+          <script>
+              new Valine({
+                  el: '#vcomments',
+                  appId: '<API_ID>',
+                  appKey: '<API_Key>'
+              })
+          </script>
         </div>
       </div>
     </div>
-    <div id="vcomments"></div>
-    <script>
-        new Valine({
-            el: '#vcomments',
-            appId: '<API_ID>',
-            appKey: '<API_Key>'
-        })
-    </script>
-
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
 <script type="application/javascript">
